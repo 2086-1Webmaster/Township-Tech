@@ -17,7 +17,7 @@ a.bruh:hover {
     font-size:60px;
   }
   .navmedia {
-    font-size:40px;
+    font-size:50px;
   }
 
   .maincap1 {
@@ -222,3 +222,11 @@ div.testdiv {
   text-align: center;
 }
 
+@font-face {
+  font-family: Neoteric;
+  src: url(Neoteric-32A8.ttf)
+}
+
+.nav-link {
+  font-family: Neoteric;
+}

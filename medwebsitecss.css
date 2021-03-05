@@ -1,6 +1,7 @@
 a.bruh:hover {
-    background-color: green
+    border: 5px solid blue
   }
+
   
   .center {
     display: block;
@@ -17,7 +18,7 @@ a.bruh:hover {
       font-size:60px;
     }
     .navmedia {
-      font-size:30px;
+      font-size:50px;
     }
   
     .maincap1 {
@@ -68,11 +69,11 @@ a.bruh:hover {
       margin-left:27px
     }
   .navheader {
-    font-size:10px
+    font-size:20px
   }
   
   .navmedia {
-    font-size:10px;
+    font-size:15px;
   }
   
   .maincap1 {
@@ -112,7 +113,7 @@ a.bruh:hover {
   }
   
   .bruh {
-    font-size:10px
+    font-size:15px
   }
   }
   
@@ -154,7 +155,10 @@ a.bruh:hover {
   div.hoverd:hover {
       border: 5px double orange;
   }
-
+  @font-face {
+    font-family: Neoteric;
+    src: url(Neoteric-32A8.ttf)
+  }
   .nav-link {
-    text-align: center;
+    font-family: Neoteric;
   }
