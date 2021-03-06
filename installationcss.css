@@ -133,6 +133,12 @@ a.bruh:hover {
   .container-fluid {
     margin-bottom:50px
   }
+
+
+  .hidden {
+    display:none;
+    visibility: hidden;
+  }
   
   }
   
@@ -156,11 +162,7 @@ a.bruh:hover {
   }
   
   
-  div.testdiv {
-    background-color: black;
-    width:100px;
-    height:100px;
-  }
+
   
   .inline-photo {
     box-shadow: 1em 1em 2em .25em rgba(0,0,0,.2);
@@ -256,4 +258,30 @@ a.bruh:hover {
 .sliding {
   animation: slideRight 5s;
   -webkit-animation: slideRight 5s;
+}
+
+
+@font-face {
+  font-family: Neoteric;
+  src: url(Neoteric-32A8.ttf)
+}
+.nav-link {
+  font-family: Neoteric;
+}
+
+
+.navheader {
+  font-family: Neoteric;
+}
+
+
+li.indent {
+  text-indent: 20px
+}
+
+
+div.sticky {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
 }
