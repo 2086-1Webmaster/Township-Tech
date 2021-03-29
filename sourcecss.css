@@ -64,8 +64,8 @@
     transition: all 0.5s;
 }
 
-.maincap {
-  font-size: 35px
+.sourcing {
+  font-size: 50px;
 }
   }
   
@@ -121,20 +121,19 @@
   }
   
   .bruh {
-    font-size:15px
+    font-size:15px;
   }
   .nav2:hover {
-    font-size: ""
+    font-size: "";
 }
 
 .nav2 {
     transition: "";
-    font-size: 20px
-}
-.maincap {
-  font-size:20px
 }
 
+.sourcing {
+  font-size: 17px;
+}
   }
   
   

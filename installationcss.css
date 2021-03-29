@@ -63,7 +63,9 @@ a.bruh:hover {
     visibility: visible;
   }
   
-  
+  .faqheader {
+    font-size: 80px;
+  }
   }
   
   
@@ -74,11 +76,11 @@ a.bruh:hover {
       margin-left:27px
     }
   .navheader {
-    font-size:10px;
+    font-size:35px;
   }
   
   .navmedia {
-    font-size:10px;
+    font-size:17px;
   }
   
   .maincap1 {
@@ -126,9 +128,7 @@ a.bruh:hover {
   }
   
   
-  .bg-text {
-    margin-top:10%
-  }
+ 
   
   .container-fluid {
     margin-bottom:50px
@@ -139,7 +139,11 @@ a.bruh:hover {
     display:none;
     visibility: hidden;
   }
-  
+  .faqheader {
+    font-size: 40px;
+  }
+
+
   }
   
   
@@ -280,13 +284,51 @@ a.bruh:hover {
 }
 
 
-div.sticky {
-  position: -webkit-sticky;
-  position: sticky;
-  top: 0;
+#grad {
+  background-image: linear-gradient(to bottom right, blue, lightblue);
+  border-radius: 15px
 }
 
-.faqbackground {
-  background-color: salmon
+
+.bg-image {
+  /* The image used */
+  background-image: url(" https://cdn.discordapp.com/attachments/709943049433907255/815296872414969866/engineercool.jpeg");
+  
+  /* Add the blur effect */
+  filter: blur(8px);
+  -webkit-filter: blur(8px);
+  
+  /* Full height */
+  height: 70%; 
+  top: 50%;
+  left: 50%;
+  
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* Position text in the middle of the page/image */
+.bg-text {
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+  color: white;
+  font-weight: bold;
+  border: 3px solid #f1f1f1;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 50%;
+  padding: 20px;
+  text-align: center;
+}
+
+
+
+.startgif:hover {
+  border: solid #ff7a7a 2px
 }
 
